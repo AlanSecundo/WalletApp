@@ -26,14 +26,14 @@ const HomeScreen: React.FC = () => {
           <LogoutButton />
         </View>
         <View>
-          <Text style={styles.balance}>Available Balance</Text>
+          <Text style={styles.balance}>Avail1able Balance</Text>
           <Balance />
         </View>
       </View>
       <View style={styles.transactionsContainer}>
-        <TransactionList />
+        <TransactionList>
       </View>
-      <View style={styles.footer}>
+      <View>
         <IdiomFeedback />
       </View>
     </View>
